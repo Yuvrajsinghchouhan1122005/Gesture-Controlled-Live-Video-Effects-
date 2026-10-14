@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+captures/*
+results/*
+recordings/*
+!*/.gitkeep

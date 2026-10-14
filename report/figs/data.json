@@ -1,0 +1,253 @@
+{
+ "hist_eq": {
+  "in_range": [
+   76,
+   170
+  ],
+  "in_std": 19.1,
+  "out_range": [
+   0,
+   255
+  ],
+  "out_std": 72.4
+ },
+ "denoise_psnr": {
+  "noisy": 17.58,
+  "median5": 33.22,
+  "mean5": 25.71,
+  "gauss": 25.97
+ },
+ "edge_pixels": {
+  "Prewitt": 4.03,
+  "Sobel": 4.0,
+  "Laplacian of Gaussian": 1.51,
+  "Canny": 1.75
+ },
+ "white_pct_binary": 26.8,
+ "morph_white_pct": {
+  "Erosion": 17.7,
+  "Dilation": 34.5,
+  "Opening": 23.1,
+  "Closing": 27.2,
+  "Boundary Extraction": 3.2,
+  "Hit-or-Miss Transform": 29.0,
+  "Thinning (Zhang-Suen)": 26.5
+ },
+ "otsu_compare": [
+  [
+   "sample (colour)",
+   129,
+   129
+  ],
+  [
+   "low-contrast",
+   120,
+   120
+  ],
+  [
+   "equalized",
+   125,
+   125
+  ],
+  [
+   "Gaussian-blurred",
+   125,
+   125
+  ]
+ ],
+ "timing": [
+  [
+   "Grayscale",
+   "Image Fundamentals",
+   24.1
+  ],
+  [
+   "Digital Negative",
+   "Image Enhancement",
+   17.1
+  ],
+  [
+   "Contrast Stretching",
+   "Image Enhancement",
+   12.3
+  ],
+  [
+   "Thresholding",
+   "Image Enhancement",
+   15.1
+  ],
+  [
+   "Intensity Level Slicing",
+   "Image Enhancement",
+   16.8
+  ],
+  [
+   "Log Transformation",
+   "Image Enhancement",
+   13.9
+  ],
+  [
+   "Power-law (Gamma)",
+   "Image Enhancement",
+   17.1
+  ],
+  [
+   "Mean (Box) Filter",
+   "Image Enhancement",
+   6.5
+  ],
+  [
+   "Gaussian Filter",
+   "Image Enhancement",
+   8.9
+  ],
+  [
+   "Median Filter",
+   "Image Enhancement",
+   15.7
+  ],
+  [
+   "Laplacian Sharpening",
+   "Image Enhancement",
+   32.3
+  ],
+  [
+   "Unsharp Masking / High-boost",
+   "Image Enhancement",
+   66.9
+  ],
+  [
+   "Histogram Equalization",
+   "Image Enhancement",
+   32.0
+  ],
+  [
+   "Erosion",
+   "Morphology",
+   9.0
+  ],
+  [
+   "Dilation",
+   "Morphology",
+   8.0
+  ],
+  [
+   "Opening",
+   "Morphology",
+   13.0
+  ],
+  [
+   "Closing",
+   "Morphology",
+   13.1
+  ],
+  [
+   "Boundary Extraction",
+   "Morphology",
+   1.9
+  ],
+  [
+   "Hit-or-Miss Transform",
+   "Morphology",
+   14.5
+  ],
+  [
+   "Thinning (Zhang-Suen)",
+   "Morphology",
+   1835.4
+  ],
+  [
+   "Thickening",
+   "Morphology",
+   166.0
+  ],
+  [
+   "Grayscale Morphology",
+   "Morphology",
+   1.4
+  ],
+  [
+   "Prewitt",
+   "Edge Detection",
+   47.6
+  ],
+  [
+   "Sobel",
+   "Edge Detection",
+   45.2
+  ],
+  [
+   "Laplacian",
+   "Edge Detection",
+   11.8
+  ],
+  [
+   "Laplacian of Gaussian",
+   "Edge Detection",
+   45.2
+  ],
+  [
+   "Canny",
+   "Edge Detection",
+   3.7
+  ],
+  [
+   "Global Thresholding",
+   "Segmentation",
+   7.5
+  ],
+  [
+   "Otsu Thresholding",
+   "Segmentation",
+   16.4
+  ],
+  [
+   "Adaptive Thresholding",
+   "Segmentation",
+   1.7
+  ]
+ ],
+ "n_ops": 30,
+ "ops_by_unit": {
+  "Image Fundamentals": [
+   "Grayscale"
+  ],
+  "Image Enhancement": [
+   "Digital Negative",
+   "Contrast Stretching",
+   "Thresholding",
+   "Intensity Level Slicing",
+   "Log Transformation",
+   "Power-law (Gamma)",
+   "Mean (Box) Filter",
+   "Gaussian Filter",
+   "Median Filter",
+   "Laplacian Sharpening",
+   "Unsharp Masking / High-boost",
+   "Histogram Equalization"
+  ],
+  "Morphology": [
+   "Erosion",
+   "Dilation",
+   "Opening",
+   "Closing",
+   "Boundary Extraction",
+   "Hit-or-Miss Transform",
+   "Thinning (Zhang-Suen)",
+   "Thickening",
+   "Grayscale Morphology"
+  ],
+  "Edge Detection": [
+   "Prewitt",
+   "Sobel",
+   "Laplacian",
+   "Laplacian of Gaussian",
+   "Canny"
+  ],
+  "Segmentation": [
+   "Global Thresholding",
+   "Otsu Thresholding",
+   "Adaptive Thresholding"
+  ]
+ }
+}

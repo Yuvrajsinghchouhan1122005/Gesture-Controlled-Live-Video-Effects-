@@ -1,0 +1,6 @@
+# Gesture IVP Lab - Python 3.11
+# mediapipe 0.10.14 needs NumPy 1.x and installs opencv-contrib-python
+# (a superset of opencv-python that also contains cv2.ximgproc).
+mediapipe==0.10.14
+opencv-contrib-python==4.11.0.86
+numpy==1.26.4
